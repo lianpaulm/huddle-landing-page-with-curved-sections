@@ -57,12 +57,12 @@
       <section class="stats-section">
         <div class="container flex">
           <div class="stats stats-formed">
-            <div class="stats-value">1.4k+</div>
+            <h2 class="stats-value">1.4k+</h2>
             <div class="stats-label">Communities Formed</div>
           </div>
 
           <div class="stats stats-sent">
-            <div class="stats-value">2.7m+</div>
+            <h2 class="stats-value">2.7m+</h2>
             <div class="stats-label">Messages Sent</div>
           </div>
         </div>
@@ -137,9 +137,14 @@
             newsletter. We’ll never send you spam or pass on your email address
           </p>
 
-          <form action="">
-            <label for="email"></label>
-            <input type="email" name="email" id="email" class="input" />
+          <form action="#" method="POST">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="input"
+              aria-label="input email"
+            />
             <input type="submit" class="newsletter-btn" value="Subscribe" />
           </form>
         </div>
